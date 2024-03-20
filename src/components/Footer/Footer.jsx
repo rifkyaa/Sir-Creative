@@ -5,8 +5,8 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className='footer__container footer'>
-        <span className="footer__copy">
-            &#169; Sir Creative. All rigths reserved
+        <span className="title__footer">
+            &#169; 2024 Sir Creative. All rigths reserved
         </span>
 
         <div className="wrapper__icon">

@@ -2,6 +2,10 @@
   padding: 2rem 2rem 2rem;
 }
 
+.title__footer {
+    font-weight: 500;
+}
+
 .footer__container {
     display: flex;
     justify-content: space-between;
