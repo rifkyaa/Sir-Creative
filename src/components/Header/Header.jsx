@@ -17,13 +17,15 @@ const Header = () => {
     return (
         <header className='header'>
             <nav className='nav container'>
-                <img src={icon_sir} alt="logo" className='icon_logo'/>
+                <a href="/">
+                    <img src={icon_sir} alt="logo" className='icon_logo'/>
+                </a>
 
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
                         <li className='nav__item'>
-                            <a href="/work"
-                                onClick={() => setActiveNav('/work')}
+                            <a href="#work"
+                                onClick={() => setActiveNav('#work')}
                                 className="nav__link">
                                 Work
                             </a>
@@ -32,8 +34,8 @@ const Header = () => {
                         <span className='slash'>|</span>
 
                         <li className='nav__item'>
-                            <a href="/about"
-                                onClick={() => setActiveNav('/about')}
+                            <a href="#about"
+                                onClick={() => setActiveNav('#about')}
                                 className="nav__link">
                                 About
                             </a>

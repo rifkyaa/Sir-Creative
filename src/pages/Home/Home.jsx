@@ -12,9 +12,9 @@ import Data from '../../components/Data';
 const Home = () => {
   
   return (
-    <section className='home'>
+    <section className='home' id='home'>
       {/* Home */}
-      <div className="homepage section" id='home'>
+      <div className="homepage section">
         <div className="home__container container grid">
             <div className="home__content grid">
               <div className='home-content__title'>
@@ -32,7 +32,7 @@ const Home = () => {
       {/* HomeEnd */}
 
       {/* About */}
-      <div className='about-home section'>
+      <div className='about-home section' id='about'>
         <div className="about__container container grid">
           <div className="about__content grid">
             <div className="about-content__title">
@@ -82,7 +82,7 @@ const Home = () => {
       {/* ServiceEnd */}
 
       {/* Work */}
-      <div className="work section">
+      <div className="work section" id='work'>
         <div className="work__container container grid">
           <div className="work__content grid">
             <h1 className="work__title">What We've <span className='text-diff'>Done.</span></h1>
@@ -106,7 +106,7 @@ const Home = () => {
       </div>
       {/* WorkEnd */}
 
-      <div className="contact section">
+      <div className="contact section" id='contact'>
         <div className="contact__container grid">
           <h1 className="contact__title">Let's <span className='text-diff__white'>Talk.</span></h1>
           <p className="contact__subtitle">Click one of our contacts to contact us</p>
