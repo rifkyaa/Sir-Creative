@@ -1,0 +1,28 @@
+.footer {
+  padding: 2rem 2rem 2rem;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper__icon {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .footer__container {
+        padding: 1.5rem 2rem 1.5rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .footer__container {
+        padding: 1rem 1rem 1rem;
+    }
+}

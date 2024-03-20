@@ -1,0 +1,364 @@
+/* HomePage */
+.homepage,
+.about-home,
+.service,
+.work,
+.contact {
+    border-bottom: 3px solid var(--title-color);
+}
+
+.home__container {
+    row-gap: 3rem;
+}
+
+.home__content {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    padding-top: 4rem;
+    column-gap: 15rem;
+}
+
+.home-content__title {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.home__title {
+    font-size: var(--big-font-size);
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.text-diff {
+    background: linear-gradient(to bottom, transparent 50%, var(--accent-color) 50%);
+}
+
+.text-diff__white {
+    background: linear-gradient(to bottom, transparent 50%, var(--body-color) 50%);
+}
+
+.home__btn {
+    background: none;
+    border: 2px solid var(--title-color);
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+}
+
+.home__btn:hover {
+    color: var(--body-color);
+}
+
+.home__btn:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--title-color);
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+
+.btn1::before {
+    transform: scaleX(0);
+}
+
+.btn1:hover::before {
+    transform: scaleX(1);
+}
+
+.home__img {
+    width: 500px;
+}
+
+.home__scroll {
+    margin-left: 9.25rem;
+}
+
+/* Hide Scroll */
+.hide-scroll {
+    opacity: 0;
+    transition: 0.7s;
+    transform: translateY(100%);
+}
+
+
+.home__scroll a {
+    display: flex;
+    align-items: center;
+}
+/* HomePageEnd */
+
+/* HomeAbout */
+.about__container {
+    row-gap: 3rem;    
+}
+
+.about__content {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center end;
+    column-gap: 1rem;
+}
+
+.about-content__title {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about__title,
+.service__title,
+.work__title,
+.contact__title {
+    font-size: var(--h1-font-size);
+}
+
+.about__subtitle,
+.service__subtitle,
+.work__subtitle,
+.contact__subtitle {
+    font-size: var(--small-font-size);
+    font-weight: 500;
+}
+
+.about-home {
+    background-color: var(--accent-color);
+}
+
+.about-content__project {
+    display: flex;
+}
+
+.wrapper-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    gap: 0.5rem;
+}
+
+.title-no {
+    font-size: var(--big-font-size);
+    margin-top: -15px;
+}
+
+
+.left {
+    border-left: 2px solid #22283176;
+}
+/* HomeAboutEnd */
+
+/* Service */
+
+.service__container {
+    row-gap: 3rem;
+}
+
+.service__content {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 2rem;
+}
+
+.wrapper__content-service {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    place-items: center ;
+    margin-top: 2rem;
+}
+
+.wrapper__service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-service {
+    font-size: var(--big-font-size);
+}
+
+.title__content-service {
+    font-size: var(--small-font-size);
+}
+
+/* ServiceEnd */
+
+/* Work */
+.work__container {
+    row-gap: 3rem;    
+}
+
+.work__content {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
+    row-gap: 1rem;
+}
+
+.wrapper-project__work {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.content__work-project {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 3px solid #2228312e;
+}
+
+.img-work {
+    transition: all 0.3s;
+}
+
+.content__work-project .img-work:hover {
+    scale: 1.1;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.title-img__work {
+    font-size: var(--normal-font-size);
+}
+
+.wrapper__work-button {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--title-color);
+}
+/* WorkEnd */
+
+/* Contact */
+.contact {
+    background-color: var(--accent-color);
+}
+
+.contact__container {
+    place-items: center;
+    position: relative;
+}
+
+.contact__content {
+    place-items: center;
+    gap: 1rem;
+}
+
+.wrapper-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    color: var(--title-color);
+    transition: all 0.5s;
+}
+
+.icon-link {
+    font-size: 1.2rem;
+}
+
+.title-link {
+    font-weight: 500;
+}
+
+.wrapper-link:hover {
+    font-size: 1.3rem;
+}
+
+
+/* ContactEnd */
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .home__content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .wrapper-project__work {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .home__content,
+    .about__content {
+        grid-template-columns: 1fr;
+        padding-top: 2.5rem;
+        place-items: center center;
+        gap: 2.5rem;
+    }
+
+    .home-content__title{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-content__title {
+        gap: 2rem;
+    }
+
+    .home__title {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    
+    .home__subtitle {
+        font-size: var(--small-font-size);
+        font-weight: 500;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .home__btn {
+        font-size: var(--small-font-size);
+        padding: 0.7rem 0;
+    }
+    
+    .home__scroll {
+        display: none;
+    }
+
+    .about__title,
+    .service__title,
+    .work__title {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .wrapper__content-service {
+        gap: 1.5rem;
+    }
+
+    .icon-service {
+        font-size: 3rem;
+    }
+    
+    
+    .about__subtitle {
+        text-align: center;
+    }
+
+    .wrapper-project__work {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+}
