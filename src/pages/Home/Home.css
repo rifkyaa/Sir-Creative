@@ -344,11 +344,12 @@
     }
 
     .icon-service {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     
-    .about__subtitle {
+    .about__subtitle,
+    .service__subtitle {
         text-align: center;
     }
 
@@ -357,7 +358,7 @@
     }
 
     .title__content-service {
-        font-size: var(--smaller-font-size);
+        font-size: var(--tiny-font-size);
     }
 
 }
