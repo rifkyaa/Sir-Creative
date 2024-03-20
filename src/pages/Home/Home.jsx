@@ -7,9 +7,8 @@ import { FaShop } from "react-icons/fa6";
 import { BsPersonBoundingBox } from "react-icons/bs";
 import Data from '../../components/Data';
 
-
-
 const Home = () => {
+  const totalWeb = Data.length;
   
   return (
     <section className='home' id='home'>
@@ -45,7 +44,7 @@ const Home = () => {
                 <h4 className='subtitle-project'>Client</h4>
               </div> 
               <div className="wrapper-content left">
-                <h1 className='title-no text-diff__white'>12</h1>
+                <h1 className='title-no text-diff__white'>{totalWeb}</h1>
                 <h4 className='subtitle-project'>Web</h4>
               </div> 
             </div>
