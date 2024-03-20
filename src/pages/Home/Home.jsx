@@ -19,7 +19,7 @@ const Home = () => {
               <div className='home-content__title'>
                 <h1 h1 className="home__title">We <span className='text-diff'>Build,</span> What You <span className='text-diff'>Want.</span></h1>
                 <p className="home__subtitle">Transforming Your <b>Ideas</b> into Custom-Built Solutions, <b>Building</b> Your Website With <b>Happiness!</b></p>
-                <a href="https://api.whatsapp.com/send?phone=628814033362&text=Ada yang bisa kami bantu?" target="_blank" className="contact__button">{" "}
+                <a href="https://api.whatsapp.com/send?phone=6283129360168&text=Halo Admin! Bisa dibantu untuk informasi lebih lanjut?" target="_blank" className="contact__button">{" "}
                   <button className='home__btn btn1'>Consult Now</button>
                 </a>
               </div>
@@ -111,7 +111,7 @@ const Home = () => {
           <p className="contact__subtitle">Click one of our contacts to contact us</p>
           <div className="contact__content grid">
             <a href="mailto:sircretive3@gmail.com.com" target="_blank" className='wrapper-link'><AiOutlineMail className='icon-link'/> <span className='title-link'>Email: sircreative3@gmail.com</span></a>
-            <a href="https://api.whatsapp.com/send?phone=6208814033362&text=Ada yang bisa kami bantu?" target="_blank" className='wrapper-link'>{" "}<FaWhatsapp className='icon-link'/> <span className='title-link'>WA: +6208814033362</span> </a>
+            <a href="https://api.whatsapp.com/send?phone=6283129360168&text=Halo Admin! Bisa dibantu Informasi lebih lanjut??" target="_blank" className='wrapper-link'>{" "}<FaWhatsapp className='icon-link'/> <span className='title-link'>WA: +6283129360168</span> </a>
             <a href="https://www.instagram.com/sircreative.id?igsh=MXB5NmZ2YzhyYWZwdA==" target="_blank" className='wrapper-link'><FaInstagram className='icon-link'/> <span className='title-link'>IG: SIR Creative</span></a>
           </div>
         </div>
