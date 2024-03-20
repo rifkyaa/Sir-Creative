@@ -340,7 +340,7 @@
     }
 
     .wrapper__content-service {
-        gap: 1.5rem;
+        gap: 0.8rem;
     }
 
     .icon-service {
@@ -354,6 +354,10 @@
 
     .wrapper-project__work {
         grid-template-columns: 1fr;
+    }
+
+    .title__content-service {
+        font-size: var(--smaller-font-size);
     }
 
 }

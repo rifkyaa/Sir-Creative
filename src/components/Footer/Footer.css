@@ -29,4 +29,8 @@
     .footer__container {
         padding: 1rem 1rem 1rem;
     }
+
+    .title__footer {
+        font-size: var(--small-font-size);
+    }
 }
