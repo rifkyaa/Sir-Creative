@@ -118,7 +118,7 @@ const Home = () => {
           <h1 className="contact__title">Let's <span className='text-diff__white'>Talk.</span></h1>
           <p className="contact__subtitle">Click one of our contacts to contact us</p>
           <div className="contact__content grid">
-            <a href="mailto:sircreative3@gmail.com.com" target="_blank" className='wrapper-link'><AiOutlineMail className='icon-link'/> <span className='title-link'>Email: sircreative3@gmail.com</span></a>
+            <a href="mailto:sircreative3@gmail.com" target="_blank" className='wrapper-link'><AiOutlineMail className='icon-link'/> <span className='title-link'>Email: sircreative3@gmail.com</span></a>
             <a href="https://api.whatsapp.com/send?phone=6283129360168&text=Halo Admin! Bisa dibantu Informasi lebih lanjut??" target="_blank" className='wrapper-link'>{" "}<FaWhatsapp className='icon-link'/> <span className='title-link'>WA: +6283129360168</span> </a>
             <a href="https://www.instagram.com/sircreative.id?igsh=MXB5NmZ2YzhyYWZwdA==" target="_blank" className='wrapper-link'><FaInstagram className='icon-link'/> <span className='title-link'>IG: SIR Creative</span></a>
           </div>
