@@ -5,6 +5,10 @@ import { FaLongArrowAltRight, FaRegBuilding, FaInstagram, FaWhatsapp } from "rea
 import { AiOutlineMail } from "react-icons/ai";
 import { FaShop } from "react-icons/fa6";
 import { BsPersonBoundingBox } from "react-icons/bs";
+import iconCompany from "../../assets/company.png"
+import iconStore from "../../assets/store.png"
+import iconPersonal from "../../assets/personal.png"
+import iconMore from "../../assets/more.png"
 import Data from '../../components/Data';
 
 const Home = () => {
@@ -62,16 +66,20 @@ const Home = () => {
             <p className="service__subtitle">We can provide landing page of your needs, such as:</p>
             <div className="wrapper__content-service grid">
               <div className="wrapper__service">
-                <FaRegBuilding className='icon-service'/>
+                <img src={iconCompany} alt="" className="icon-service" />
                 <h4 className="title__content-service">Company Profile</h4>
               </div>
               <div className="wrapper__service">
-                <FaShop className='icon-service'/>
+                <img src={iconStore} alt="" className="icon-service" />
                 <h4 className="title__content-service">Online Shop</h4>
               </div>
               <div className="wrapper__service">
-                <BsPersonBoundingBox className='icon-service'/>
+                <img src={iconPersonal} alt="" className="icon-service" />
                 <h4 className="title__content-service">Portfolio</h4>
+              </div>
+              <div className="wrapper__service">
+                <img src={iconMore} alt="" className="icon-service" />
+                <h4 className="title__content-service">and More.</h4>
               </div>
             </div>
           </div>
@@ -110,7 +118,7 @@ const Home = () => {
           <h1 className="contact__title">Let's <span className='text-diff__white'>Talk.</span></h1>
           <p className="contact__subtitle">Click one of our contacts to contact us</p>
           <div className="contact__content grid">
-            <a href="mailto:sircretive3@gmail.com.com" target="_blank" className='wrapper-link'><AiOutlineMail className='icon-link'/> <span className='title-link'>Email: sircreative3@gmail.com</span></a>
+            <a href="mailto:sircreative3@gmail.com.com" target="_blank" className='wrapper-link'><AiOutlineMail className='icon-link'/> <span className='title-link'>Email: sircreative3@gmail.com</span></a>
             <a href="https://api.whatsapp.com/send?phone=6283129360168&text=Halo Admin! Bisa dibantu Informasi lebih lanjut??" target="_blank" className='wrapper-link'>{" "}<FaWhatsapp className='icon-link'/> <span className='title-link'>WA: +6283129360168</span> </a>
             <a href="https://www.instagram.com/sircreative.id?igsh=MXB5NmZ2YzhyYWZwdA==" target="_blank" className='wrapper-link'><FaInstagram className='icon-link'/> <span className='title-link'>IG: SIR Creative</span></a>
           </div>
